@@ -1,0 +1,29 @@
+{
+  "name": "kurzer",
+  "displayName": "Kurzer",
+  "version": "1.0.0",
+  "description": "Kurzer is a Telegram bot for shorten url",
+  "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxgicoxx/kurzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxgicoxx/kurzer/issues"
+  },
+  "homepage": "https://github.com/xxgicoxx/kurzer#readme",
+  "keywords": [
+    "telegram-bot",
+    "telegram",
+    "bot"
+  ],
+  "dependencies": {
+    "kurzer-url": "^1.0.1",
+    "telegram-node-bot": "^4.0.5"
+  }
+}
