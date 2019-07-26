@@ -1,6 +1,6 @@
-# Kurzer - Telegram bot for shorten url.
+# Kurzer
 
-Kurzer is a Telegram bot for shorten url.
+Kurzer is an Telegram bot for shorten url.
 
 ![Bot](https://i.imgur.com/zkOa0a1.png)
 
