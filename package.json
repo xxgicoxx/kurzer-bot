@@ -2,7 +2,7 @@
   "name": "kurzer",
   "displayName": "Kurzer",
   "version": "1.0.0",
-  "description": "Kurzer is a Telegram bot for shorten url",
+  "description": "Telegram bot for shorten url",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
   "main": "app.js",
@@ -24,6 +24,12 @@
   ],
   "dependencies": {
     "kurzer-url": "^1.0.1",
+    "slug.js": "^1.0.1",
     "telegram-node-bot": "^4.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
   }
 }

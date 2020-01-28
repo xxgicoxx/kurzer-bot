@@ -1,1 +1,1 @@
-require('./app/worker/telegram/index');
+require('./app/controllers/BotController');

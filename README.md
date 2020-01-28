@@ -1,5 +1,5 @@
 # Kurzer
-Kurzer is an Telegram bot for shorten url.
+Telegram bot for shorten url.
 
 ![Bot](https://i.imgur.com/zkOa0a1.png)
 
@@ -7,7 +7,7 @@ Kurzer is an Telegram bot for shorten url.
 * [Node.js](https://nodejs.org/en/) - Node.js
 
 ### Running
-The server can be run locally and also deployed to your own server. You will need to register your own Telegram Bot and set the credentials in 'config/auth.js'.
+The server can be run locally and also deployed to your own server.
 
 ### Telegram
 ````
@@ -15,7 +15,7 @@ The server can be run locally and also deployed to your own server. You will nee
 Find @BotFather on Telegram, type /newbot and follow the instructions
 
 # Configure
-Get your token from @BotFather and set in 'config/auth.js'
+Get your token from @BotFather and set in 'configs/telegram.js'
 ````
 
 ### Run
