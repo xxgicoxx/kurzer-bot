@@ -23,7 +23,7 @@ Get your token from @BotFather and set in 'configs/telegram.js'
 # Install dependencies
 npm install
 
-# Run
+# Start
 npm start
 ````
 

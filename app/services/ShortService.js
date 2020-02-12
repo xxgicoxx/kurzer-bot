@@ -1,13 +1,29 @@
 const kurzerurl = require('kurzer-url');
+const ehUrl = require('eh-url');
 
 class ShortService {
-  short(scope) {
-    const url = scope.message.text.replace('/short', '');
-    kurzerurl.short(url).then((response) => {
-      scope.sendMessage(response);
-    }).catch((error) => {
-      scope.sendMessage(error);
-    });
+  async short($) {
+    try {
+      const url = $.message.text.replace('/short', '').trim();
+
+      if (!url) {
+        $.sendMessage('URL must not be empty');
+      } else {
+        const validUrl = await ehUrl(url);
+
+        if (!validUrl) {
+          $.sendMessage('Invalid URL');
+        } else {
+          const shortenedUrl = await kurzerurl.short(url);
+
+          $.sendMessage(shortenedUrl);
+        }
+      }
+    } catch (ex) {
+      console.error(ex);
+
+      $.sendMessage('Error, try again later');
+    }
   }
 }
 

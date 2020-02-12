@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/xxgicoxx/kurzer#readme",
   "keywords": [
-    "telegram-bot",
-    "telegram",
-    "bot"
+    "kurzer",
+    "shorten",
+    "shortner",
+    "url"
   ],
   "dependencies": {
+    "eh-url": "^1.0.1",
+    "is-url": "^1.2.4",
     "kurzer-url": "^1.0.1",
     "slug.js": "^1.0.1",
     "telegram-node-bot": "^4.0.5"
