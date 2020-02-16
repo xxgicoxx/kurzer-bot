@@ -8,7 +8,7 @@ class SlugService {
       if (!string) {
         $.sendMessage('String must not be empty');
       } else {
-        const sluggedString = slug(string);
+        const sluggedString = await slug.slugify(string);
 
         $.sendMessage(sluggedString);
       }

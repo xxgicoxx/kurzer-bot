@@ -1,7 +1,7 @@
 {
   "name": "kurzer",
   "displayName": "Kurzer",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Telegram bot for shorten url",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
@@ -24,10 +24,9 @@
     "url"
   ],
   "dependencies": {
-    "eh-url": "^1.0.1",
-    "is-url": "^1.2.4",
-    "kurzer-url": "^1.0.1",
-    "slug.js": "^1.0.1",
+    "eh-url": "^1.0.2",
+    "kurzer-url": "^3.0.0",
+    "slug.js": "^2.0.0",
     "telegram-node-bot": "^4.0.5"
   },
   "devDependencies": {

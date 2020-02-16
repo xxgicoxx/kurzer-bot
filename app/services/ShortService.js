@@ -1,4 +1,4 @@
-const kurzerurl = require('kurzer-url');
+const kurzer = require('kurzer-url');
 const ehUrl = require('eh-url');
 
 class ShortService {
@@ -14,7 +14,7 @@ class ShortService {
         if (!validUrl) {
           $.sendMessage('Invalid URL');
         } else {
-          const shortenedUrl = await kurzerurl.short(url);
+          const shortenedUrl = await kurzer(url);
 
           $.sendMessage(shortenedUrl);
         }
