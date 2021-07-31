@@ -1,24 +1,32 @@
-# Kurzer
-Telegram bot for shorten url.
+# Kurzer Bot
+Telegram Node.js bot for shorten url.
 
 ![Bot](https://i.imgur.com/zkOa0a1.png)
 
-### Prerequisites
-* [Node.js](https://nodejs.org/en/) - Node.js
+# Features
+* /short - Short url
+* /help - Help
 
-### Running
-The server can be run locally and also deployed to your own server.
+# Prerequisites
+* [Node.js](https://nodejs.org/en/)
 
-### Telegram
+# Running
+### 1. Configure
+````
+# Bot
+Create and configure .env file like .env.example
+````
+
+### 2. Telegram
 ````
 # Create an Telegram bot
 Find @BotFather on Telegram, type /newbot and follow the instructions
 
 # Configure
-Get your token from @BotFather and set in 'configs/telegram.js'
+Get your token from @BotFather and set in 'server/configs/telegram.js'
 ````
 
-### Run
+### 3. Run
 ````
 # Install dependencies
 npm install
@@ -27,11 +35,13 @@ npm install
 npm start
 ````
 
+# About
+
 ### Built With
 * [Node.js](https://nodejs.org/en/)
 
 ### Authors
-* **Giovani de Oliveira** - [xxgicoxx](https://github.com/xxgicoxx)
+* [xxgicoxx](https://github.com/xxgicoxx/)
 
 ### Acknowledgments
-* [FlatIcon](https://www.flaticon.com/) - Icon
+* [FlatIcon](https://www.flaticon.com/)
