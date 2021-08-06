@@ -2,7 +2,7 @@
   "name": "kurzer-bot",
   "displayName": "Kurzer Bot",
   "version": "3.0.0",
-  "description": "Telegram Node.js bot for shorten url",
+  "description": "Telegram bot for shorten url",
   "author": "Giovani de Oliveira <giovanioliveira@outlook.com.br>",
   "license": "MIT",
   "main": "server.js",
