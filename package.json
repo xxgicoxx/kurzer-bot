@@ -25,10 +25,10 @@
     "url"
   ],
   "dependencies": {
-    "dotenv": "^9.0.0",
+    "dotenv": "^10.0.0",
     "eh-url": "^1.0.2",
     "kurzer-url": "^3.0.0",
-    "node-telegram-bot-api": "^0.53.0"
+    "node-telegram-bot-api": "^0.54.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
