@@ -27,7 +27,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "eh-url": "^1.0.2",
-    "kurzer-url": "^3.0.0",
+    "kurzer-url": "^4.0.0",
     "node-telegram-bot-api": "^0.54.0"
   },
   "devDependencies": {
