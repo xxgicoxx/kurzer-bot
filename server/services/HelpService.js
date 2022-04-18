@@ -4,7 +4,7 @@ class HelpService {
       let message = '<b>I can help you shorten url.\n\nYou can control me by sending these commands:\n\n</b>';
       const commands = [
         { command: '/short <b>{url}</b>', description: 'Short URL' },
-        { command: '/help', description: 'Help' }
+        { command: '/help', description: 'Help' },
       ];
 
       commands.forEach((command) => {
