@@ -1,10 +1,12 @@
 # Kurzer Bot
 Telegram bot for shorten url.
 
-![Bot](https://i.imgur.com/zkOa0a1.png)
+<p align="center">
+  <img src="assets/imgs/kurzerbot.png">
+</p>
 
 # Features
-* /short - Short url
+* /short `url` - Short url
 * /help - Help
 
 # Prerequisites
@@ -14,19 +16,19 @@ Telegram bot for shorten url.
 ### 1. Configure
 ````
 # Bot
-Create and configure .env file like .env.example
+Create and configure .env file like .env.example.
 ````
 
 ### 2. Telegram
 ````
 # Create an Telegram bot
-Find @BotFather on Telegram, type /newbot and follow the instructions
+Find @BotFather on Telegram, type /newbot and follow the instructions.
 
 # Username
-Get your bot username and set 'TELEGRAM_USERNAME' in .env
+Get your bot username and set 'TELEGRAM_USERNAME' in .env.
 
 # Token
-Get your token from @BotFather and set 'TELEGRAM_TOKEN' in .env
+Get your token from @BotFather and set 'TELEGRAM_TOKEN' in .env.
 ````
 
 ### 3. Run

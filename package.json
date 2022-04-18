@@ -25,14 +25,14 @@
     "url"
   ],
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "eh-url": "^1.0.2",
-    "kurzer-url": "^3.0.0",
-    "node-telegram-bot-api": "^0.54.0"
+    "dotenv": "^16.0.0",
+    "eh-url": "^2.0.0",
+    "kurzer-url": "^4.0.0",
+    "node-telegram-bot-api": "^0.56.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.0"
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
   }
 }
