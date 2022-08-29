@@ -28,7 +28,7 @@
     "dotenv": "^16.0.0",
     "eh-url": "^2.0.0",
     "kurzer-url": "^4.0.0",
-    "node-telegram-bot-api": "^0.56.0"
+    "node-telegram-bot-api": "^0.59.0"
   },
   "devDependencies": {
     "eslint": "^8.12.0",
