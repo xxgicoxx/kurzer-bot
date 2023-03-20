@@ -1,4 +1,5 @@
 const { telegramConfig } = require('../configs');
+const { constants } = require('../utils');
 
 const {
   HelpService,
@@ -15,19 +16,20 @@ class BotController {
 
   async handle() {
     try {
-      this.bot.on('message', ($) => {
+      this.bot.on(constants.ON_MESSAGE, ($) => {
         const command = $.text ? $.text.replace(telegramConfig.username, '') : $.text;
 
         switch (command) {
-          case '/help':
+          case constants.COMMAND_HELP:
             helpService.help(this.bot, $.chat);
+
             break;
           default:
             break;
         }
       });
 
-      this.bot.onText(/\/short (.+)/, ($, match) => {
+      this.bot.onText(constants.COMMAND_SHORT_REGEX, ($, match) => {
         const params = match[1].split(' ');
         const url = params[0];
 

@@ -1,21 +1,22 @@
+const { constants } = require('../utils');
+
 class HelpService {
   async help(bot, chat) {
     try {
-      let message = '<b>I can help you shorten url.\n\nYou can control me by sending these commands:\n\n</b>';
       const commands = [
         { command: '/short <b>{url}</b>', description: 'Short URL' },
         { command: '/help', description: 'Help' },
       ];
+      let message = '';
 
-      commands.forEach((command) => {
-        message += `${command.command} - ${command.description}\n`;
-      });
+      message += constants.MESSAGE_HELP;
+      message += commands.map((command) => `${command.command} - ${command.description}`).join('\n');
 
       await bot.sendMessage(chat.id, message, { parse_mode: 'html' });
     } catch (error) {
       console.error(error);
 
-      await bot.sendMessage(chat.id, 'Error, try again later');
+      await bot.sendMessage(chat.id, constants.MESSAGE_ERROR_TRY_AGAIN);
     }
   }
 }
